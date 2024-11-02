@@ -9,5 +9,5 @@ values_dict = {'a': 'world', 'b': 8, 'c':[5,2,3]}
 print_params(*values_list)
 print_params(**values_dict)
 
-valures_list_2 = [54.42, 'Строка']
-print_params(*valures_list_2, 42)
+values_list_2 = [54.42, 'Строка']
+print_params(*values_list_2, 42)
