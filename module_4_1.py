@@ -1,4 +1,4 @@
-from task.fake_math import divide as d1
+from fake_math import divide as d1
 from true_math import divide as d2
 
 print(d1(5, 5))
