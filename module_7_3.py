@@ -1,5 +1,6 @@
 import string
 
+
 class WordsFinder:
     def __init__(self, *file_names):
         self.file_names = file_names
@@ -38,6 +39,7 @@ class WordsFinder:
             if count > 0:
                 result[file_name] = count
         return result
+
 
 if __name__ == "__main__":
     finder = WordsFinder('test_file.txt')
